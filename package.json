@@ -1,0 +1,20 @@
+{
+  "name": "webdecoy-railway-fastify-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fastify on Railway with WebDecoy bot detection wired in.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@webdecoy/fastify": "^0.17.0",
+    "fastify": "^5.6.0"
+  },
+  "license": "MIT"
+}
